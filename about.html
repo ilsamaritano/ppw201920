@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="it">
+   <head>
+      <title>Classic Vespa</title>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="vince.css" />
+      <script src="./javascript/about.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="mappa.png">
+   </head>
+   <body>
+      <header>
+         <a href="index.html">
+         <img class="logo_barra" src="logo.png" id="logo" alt="logo del sito che rappresenta un manubrio stilizzato">
+         </a>
+         <nav>
+            <ul class="navigazione">
+               <li>
+                  <a href="index.html">Home</a>
+               </li>
+               <li>
+                  <a href="modelli.html">Modelli</a>
+               </li>
+               <li>
+                  <a href="curiosita.html">Curiosità</a>
+               </li>
+               <li class="selected">
+                  <a href="about.html">About Me</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <h2> ABOUT ME </h2>
+      <div id="descrizioneabout"> Nella gallery sottostante puoi vedere le foto del mio <b>restauro</b>, infatti la mia passione nasce da questa Vespa.
+         <br />
+         Si tratta di una <b>Vespa 50 Special del 1971 color Rosso Corallo</b>.
+         Il restauro completo è durato circa un anno, e grazie ad alcuni amici che mi hanno aiutato il risultato è pari al modello appena uscito di fabbrica.
+         <br />
+         Se ti interessa approfondire puoi andare nella <a href="modelli.html">sezione dei modelli</a> dove troverai la descrizione completa.
+      </div>
+      <div id="gallery">
+         <img id="foto" src="vespalatosinistro.jpg" alt="Galleria di foto con una comparativa tra prima e dopo il restauro"/>
+      </div>
+	  <div id="bottoni">
+            <input type="button" value="<" id="indietro"/>
+            <input type="button" value="Scorri in automatico" id="startStop"/>
+            <input type="button" value=">" id="avanti"/>
+         </div>
+      <footer>
+         <p id="aboutme"> Questo sito è stato progettato da Vincenzo Sammartino per l'<b>esame di progettazione e programmazione web</b>,
+            corso di <b>Laurea triennale in Informatica Umanistica</b>, anno 2019/2020.
+            <br />
+            Tutte le pagine <a class="tooltip">HTML<span>HyperText Markup Language</span></a> e <a class="tooltip">CSS<span>Cascading Style Sheets</span></a>
+            del sito sono state validate con l'apposito strumento e ritenute conformi allo standard del <a class="tooltip">W3C<span>World Wide Web Consortium</span></a>.
+            <br />
+            Durante la progettazione del sito ho tenuto conto dei criteri di accessibilità <a class="tooltip">WCAG<span>Web Content Accessibility Guidelines</span></a> 2.1.
+            <br />
+            Le foto sono state scaricate da <a href="https://wallpaperset.com/vespa-wallpaper" target="_blank">Wallpaperset</a>, da <a href="https://www.mightyseed.co/" target="_blank">Mightyseed Design</a> e dal sito del <a href="https://www.museopiaggio.it/" target="_blank">Museo Piaggio</a>,
+            i loghi dei social sono stati scaricati da <a href="http://www.freepik.com" target="_blank">freepik.com</a> e modificati con GIMP e Adobe Photoshop 2020, 
+            mentre le descrizioni e i testi sono state realizzate da me.
+            <br />
+            Tutte le foto sono state compresse con l'algoritmo di compressione <a class="tooltip">JPG<span>Joint Photographic Experts Group</span></a> o
+            <a class="tooltip">PNG<span>Portable Network Graphics</span></a> e sono ottimizzate per il web.
+            <br />
+			Gli script utilizzati nel sito sono stati ripresi dalla dispensa del professor <i>Vincenzo Ambriola</i>.
+         <div class="contatti">
+            <a href="https://www.facebook.com/VincetHD" target="_blank"><img id="social1" title="Logo Facebook con nome utente VincetHD" src="facebook.jpg"></a>
+            <a href="https://www.instagram.com/official_samma" target="_blank"><img id="social2" title="Logo Instagram con nome utente official_samma" src="instagram.jpg"></a>
+         </div>
+         <br />
+         © Design: <i>Vincenzo Sammartino</i>.
+         <p>
+            <a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fvsamma.altervista.org%2F">
+            <img id="logohtml" src="html5.png" alt="Logo HTML5 Valido"></a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=http%3A%2F%2Fvsamma.altervista.org%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=it">
+            <img id="logocss" src="http://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Logo CSS Valido"></a>
+         </p>
+      </footer>
+   </body>
+</html>

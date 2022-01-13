@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+   <head>
+      <title>Classic Vespa</title>
+      <meta charset="utf-8" />
+      <link rel="stylesheet" href="vince.css" />
+      <script src="./javascript/curiosita.js"></script>
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link rel="shortcut icon" href="mappa.png">
+   </head>
+   <body>
+      <header>
+         <a href="index.html">
+         <img class="logo_barra" src="logo.png" id="logo" alt="logo del sito che rappresenta un manubrio stilizzato">
+         </a>
+         <nav>
+            <ul class="navigazione">
+               <li>
+                  <a href="index.html">Home</a>
+               </li>
+               <li>
+                  <a href="modelli.html">Modelli</a>
+               </li>
+               <li class="selected">
+                  <a href="curiosita.html">Curiosità</a>
+               </li>
+               <li>
+                  <a href="about.html">About Me</a>
+               </li>
+            </ul>
+         </nav>
+      </header>
+      <img id="fotocuriosita" alt="Foto che raffigura due motori in cui si possono vedere i componenti interni" src="foto3.jpg">
+      <h3>Clicca sulle varie parti del motore e scopri di cosa si tratta!</h3>
+      <img id="motore" src="motore.jpg" alt="Foto del motore con parti cliccabili" usemap="#mappa" />
+      <map name="mappa">
+         <!-- Albero Motore -->
+         <area id="0" shape="poly"
+            coords="271,217,336,208,357,236,342,312,316,325,285,322,259,293,253,256,270,217"/>
+         <!-- Filtro Aria -->
+         <area id="1" shape="poly"
+            coords="678,306,689,282,764,291,771,295,781,317,776,376,762,409,745,422,692,414,683,415,674,410,678,307"/>
+         <!-- Carburatore -->
+         <area id="2" shape="poly"
+            coords="597,297,618,300,621,278,621,255,632,255,637,247,636,236,643,236,644,245,642,251,666,262,666,273,683,272,685,277,681,284,672,286,666,287,666,297,675,298,672,376,670,380,664,439,627,433,627,440,617,437,617,429,586,398,597,298"/>
+         <!-- Ingranaggi Cambio -->
+         <area id="3" shape="poly"
+            coords="133,307,176,305,214,326,225,307,248,306,264,317,271,339,260,358,232,357,245,391,233,467,187,512,126,515,93,479,79,437,81,373,98,337,130,307"/>
+         <!-- Supporto Motore -->
+         <area id="4" shape="poly"
+            coords="406,345,411,364,536,397,546,435,538,478,521,493,500,492,487,483,387,460,405,346"/>
+         <!-- Collettore di Aspirazione -->
+         <area id="5" shape="poly"
+            coords="411,250,510,264,511,284,550,294,558,289,559,294,566,294,570,291,571,295,571,300,574,300,581,280,598,282,589,359,584,358,582,350,579,351,577,358,573,357,569,344,566,344,565,349,560,348,560,344,553,344,551,347,503,349,500,350,455,346,444,337,406,331,399,333,410,250"/>
+         <!-- Cilindro -->
+         <area id="6" shape="poly"
+            coords="342,149,348,142,354,145,356,142,352,135,353,132,364,146,368,142,360,132,361,128,366,132,365,105,374,84,377,87,382,81,380,72,395,90,397,87,383,58,391,65,394,65,394,58,390,49,402,58,402,50,398,42,403,41,409,50,412,43,407,32,410,31,411,22,416,21,427,29,429,21,435,7,445,12,454,4,457,5,450,14,454,18,465,8,468,10,460,22,463,28,483,12,469,32,472,35,490,20,499,17,478,43,481,44,515,21,519,22,493,49,533,26,528,45,554,30,545,50,575,34,571,45,574,51,566,67,562,70,570,74,571,77,564,94,571,97,573,101,569,110,572,114,569,130,571,141,563,151,563,160,553,172,552,179,549,181,540,182,533,192,531,198,522,206,514,198,517,212,506,207,507,218,497,212,495,217,498,226,490,221,485,224,489,236,481,227,477,232,481,241,474,238,468,241,475,250,471,251,464,243,460,248,465,257,410,247,342,147"/>
+      </map>
+      <div class=divmotore>
+         <span id="messaggio"></span>
+         <br />
+         <span id="descrizione"></span>
+      </div>
+      <h4>Occhio al futuro</h4>
+      <p class="descrizione98"> 
+         In questa sezione voglio farti scoprire il nuovissimo <b>concept</b> realizzato dalla <a href="https://www.mightyseed.co/" target="_blank">Mightyseed Design</a>
+         che ha preso ispirazione dalla Vespa 98 (1946) per crearne una versione ultra-moderna.
+      </p>
+      <div class="gridvespa">
+         <div class="div1"><img src="./conceptvespa/vespa98-1.jpg" alt="Vespa 98 (2020) vista di fronte con alberi e foglie autunnali in sfondo"></div>
+         <div class="div2"><img src="./conceptvespa/vespa98-2.jpg" alt="Vespa 98 (2020) vista dal lato sinistro con foglie autunnali in sfondo"></div>
+         <div class="div3">
+            <p>Questo modello è stato progettato a maggio 2020, pertanto offre molte innovazioni rispetto a quello
+               prodotto dalla Piaggio nel 1946: il motore non è più il due tempi a miscela ma diventa un <b>motore elettrico</b> e il serbatoio,
+               non più necessario, viene sostituito dal pacco batterie da 30 <a class="tooltip">AH<span>Ampere/ora</span></a>.
+               <br />
+               Il cavalletto centrale è stato sostituito con un più versatile cavalletto laterale.
+            </p>
+         </div>
+         <div class="div4">
+            <p>Il manubrio è stato totalmente rivisto, è molto più spesso rispetto a quello originale per far spazio al vano portaoggetti.
+               Nella parte anteriore del manubrio vi è una striscia di <b><a class="tooltip">LED<span>Light Emitting Diode</span></a> <a class="tooltip">RGBW<span>Red Green Blue White</span></a></b>
+               che si accende durante la marcia ma è sapientemente nascosta dal nero lucido del manubrio quando è posteggiata.
+               <br />
+               L'illuminazione è garantita dal faro posto sul parafango anteriore, anch'esso a LED.
+            </p>
+         </div>
+         <div class="div5"><img src="./conceptvespa/vespa98-3.jpg" alt="Vespa 98 (2020) vista dal lato frontale/destro con foglie autunnali in sfondo"></div>
+         <div class="div6"><img src="./conceptvespa/vespa98-4.jpg" alt="Vespa 98 (2020) vista dal lato posteriore/sinistro con alberi e foglie autunnali in sfondo"></div>
+         <div class="div7">
+            <p>Sul manubrio vi è uno <b>schermo a colori</b> che segue la curvatura del manubrio e che permette di scegliere
+               tra le varie modalità di guida (Sport/Eco/Normal) e che funge da computer di bordo. Il design non è stato stravolto e mantiene
+               la linea originale della Vespa di serie, rimane infatti il sellino singolo realizzato in pelle.
+			   <br />
+			   Lateralmente troviamo il numero <b>98</b> che ricorda il modello di provenienza racchiuso da un cerchio luminoso che ricorda
+			   la ventola di raffreddamento del modello originale.
+            </p>
+         </div>
+      </div>
+   </body>
+</html>
