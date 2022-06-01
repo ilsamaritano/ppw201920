@@ -8,3 +8,5 @@ Professoressa Maria Simi
 Candidato: Vincenzo Sammartino
 
 Votazione ottenuta: 30
+
+E' possibile navigare il sito qui: https://vsamma.altervista.org/
